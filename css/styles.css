@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+  }
+  
+  #map {
+    flex: 1;
+    height: 100vh;
+  }
+  
+  #sidebar {
+    flex: 1;
+    padding: 20px;
+    max-width: 300px;
+    overflow-y: auto;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .stat {
+    margin-bottom: 15px;
+  }
+  
+  .chart-container {
+    margin-bottom: 20px;
+  }
+  
+  .mapboxgl-popup {
+    max-width: 200px;
+  }
+  
+  .mapboxgl-popup-content {
+    text-align: center;
+  }
+  
+  canvas {
+    background-color: #fff;
+    padding: 20px;
+  }  
